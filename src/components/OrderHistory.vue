@@ -19,7 +19,29 @@
         <td>&#8358; 30,000</td>
         <td>12/12/2001 </td>
         <td>
-          <button class="danger">Abandoned</button>
+          <button class="button danger">Abandoned</button>
+        </td>
+      </tr>
+      <tr>
+        <td>0002</td>
+        <td>Drizzle Grey Chambray </td>
+        <td>Paystack</td>
+        <td> MAX.NG </td>
+        <td>&#8358; 30,000</td>
+        <td>12/12/2001 </td>
+        <td>
+          <button class="button blue">In transit</button>
+        </td>
+      </tr>
+      <tr>
+        <td>0003</td>
+        <td>Drizzle Grey Chambray </td>
+        <td>Paystack</td>
+        <td> MAX.NG </td>
+        <td>&#8358; 30,000</td>
+        <td>12/12/2001 </td>
+        <td>
+          <button class="button green">Completed</button>
         </td>
       </tr>
     </table>
@@ -32,28 +54,57 @@
   padding: 10px;
 }
 
+.order-history h3 {
+  margin-left: 8px;
+  color: #666;
+}
+
 .order-history__table {
-  width: 95%;
+  width: 98%;
   padding: 0px;
   margin: 0px auto;
   border-collapse: collapse;
   border-spacing: 0;
-
+  font-size: 13px;
 }
 
 .order-history__table td {
   padding: 8px;
   text-align: center;
+  color: #666;
 }
 
 .order-history__table tr th {
-  background: #ccc;
-  padding: 10px;
+  background: #F5F6FA;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #999;
+  font-size: 12px;
 }
 
 .order-history__table tr td {
-  border-bottom: 1px solid #ccc;
-
+  border-bottom: 1px solid #F7F7F8;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
+.button {
+  padding: 5px 19px;
+  background: #ccc;
+  border-radius: 20px;
+  border-color: transparent;
+  color: #FFF;
+}
+
+.danger {
+  background-color: #D80D04;
+}
+
+.blue {
+  background-color: #1679EB;
+}
+
+.green {
+  background-color: #3CC480;
+}
 </style>
