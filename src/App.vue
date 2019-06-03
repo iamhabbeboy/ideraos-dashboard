@@ -25,7 +25,7 @@
           />
           <Card
             label="Abadoned Orders"
-            value="246"
+            value="39"
             rate="13.8%"
             chart="abandoned"
           />
@@ -59,7 +59,7 @@ export default {
 <style lang="scss">
 body {
   margin: 0px auto;
-  font-family: 'Lato';
+  font-family: 'Montserrat', sans-serif;
   font-family: 400;
   background: #FAFAFA;
 }

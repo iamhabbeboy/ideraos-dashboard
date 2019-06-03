@@ -5,14 +5,20 @@
         <h5>{{label}}</h5>
         <h2>{{value}}</h2>
         <span>
-          <i class="fa fa-arrow-down"></i> {{rate}}</span>
+            <span v-if="chart == 'completed'">
+              <span class="green"><i class="fa fa-arrow-up"></i> {{rate}}</span>
+            </span>
+            <span v-else>
+              <span class="red"><i class="fa fa-arrow-down"></i> {{rate}}</span>
+            </span>
+          </span>
       </div>
       <div>
         <span v-if="chart == 'number'">
-          <img src="@/assets/Bar-Chart-1.svg" alt="chart"/>
+          <img src="@/assets/Bar-Chart-2.svg" alt="chart"/>
         </span>
         <span v-else-if="chart == 'completed'">
-          <img src="@/assets/Bar-Chart-2.svg" alt="chart"/>
+          <img src="@/assets/Bar-Chart-1.svg" alt="chart"/>
         </span>
         <span v-else>
           <img src="@/assets/Bar-Chart.svg" alt="chart"/>
@@ -77,7 +83,14 @@ export default {
   }
 
   .card__stat > div:nth-child(1) > span {
-    color: #FA696D;
     font-size: 12px;
+  }
+
+  .green {
+    color: #3CC480;
+  }
+
+  .red {
+      color: #FA696D;
   }
 </style>
