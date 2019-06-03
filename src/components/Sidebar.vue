@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .sidebar {
   background: #0F64C4;
   position: fixed;
@@ -17,10 +17,10 @@
 }
 .logo-section {
   background: #FFF;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .sidebar {
       display: none;
     }

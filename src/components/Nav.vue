@@ -32,7 +32,7 @@
   </section>
 </template>
 
-<style lang="scss">
+<style scoped>
 .navbar {
   width: 100%;
   padding: 20px;
@@ -110,7 +110,7 @@
   padding-left: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .user-profile > div:nth-child(2) {
       display: none;
     }

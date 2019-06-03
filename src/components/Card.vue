@@ -45,7 +45,7 @@ export default {
 </script>
 <style lang="scss" scoped>
   .card {
-    width: 26%;
+    width: 30%;
     background-color: #FFF;
     padding: 8px;
     margin-left: 35px;

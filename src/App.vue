@@ -8,7 +8,9 @@
       <div class="container">
         <div class="order">
             <h3>Orders</h3>
-            <input type="date" />
+            <div>
+              <DatePicker />
+            </div>
         </div>
         <div class="card__mod">
           <Card
@@ -44,6 +46,7 @@
 import Nav from '@/components/Nav.vue'
 import Card from '@/components/Card.vue'
 import Sidebar from '@/components/Sidebar.vue'
+import DatePicker from '@/components/DatePicker.vue'
 import OrderHistory from '@/components/OrderHistory.vue'
 
 export default {
@@ -52,6 +55,7 @@ export default {
     Nav,
     Card,
     Sidebar,
+    DatePicker,
     OrderHistory
   }
 }
@@ -101,8 +105,9 @@ body {
   color: #1D91FF;
 }
 
-.order input {
+.order div {
   margin-left: auto;
+  margin-top: 10px;
 }
 
 .order-history--mod {
@@ -110,7 +115,7 @@ body {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
   .home {
     display: block;
