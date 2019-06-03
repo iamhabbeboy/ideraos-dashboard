@@ -37,8 +37,8 @@ export default {
   },
   props: {
     label: String,
-    value: Number,
-    rate: Number,
+    value: String,
+    rate: String,
     chart: String
   }
 }

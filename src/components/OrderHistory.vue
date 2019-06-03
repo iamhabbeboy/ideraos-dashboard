@@ -4,7 +4,7 @@
     <table class="order-history__table">
       <tr>
         <th>order id </th>
-        <th>description </th>
+        <th class="width">description </th>
         <th>payment method </th>
         <th> shipping method </th>
         <th>order amount </th>
@@ -13,7 +13,7 @@
       </tr>
       <tr>
         <td>0001</td>
-        <td>Drizzle Grey Chambray </td>
+        <td><a href="#">Drizzle Grey Chambray Mix Women's Cabrillo Sneakers</a></td>
         <td>Paystack</td>
         <td> MAX.NG </td>
         <td>&#8358; 30,000</td>
@@ -24,7 +24,7 @@
       </tr>
       <tr>
         <td>0002</td>
-        <td>Drizzle Grey Chambray </td>
+        <td><a href="#">Drizzle Grey Chambray </a></td>
         <td>Paystack</td>
         <td> MAX.NG </td>
         <td>&#8358; 30,000</td>
@@ -35,7 +35,7 @@
       </tr>
       <tr>
         <td>0003</td>
-        <td>Drizzle Grey Chambray </td>
+        <td><a href="#">Drizzle Grey Chambray</a> </td>
         <td>Paystack</td>
         <td> MAX.NG </td>
         <td>&#8358; 30,000</td>
@@ -74,6 +74,15 @@
   color: #666;
 }
 
+.order-history__table .width {
+  width: 150px;
+}
+
+.order-history__table td a {
+  color: #1D91FF;
+  text-decoration: none;
+}
+
 .order-history__table tr th {
   background: #F5F6FA;
   padding: 15px;
@@ -90,6 +99,7 @@
 
 .button {
   padding: 5px 19px;
+  width: 110px;
   background: #ccc;
   border-radius: 20px;
   border-color: transparent;

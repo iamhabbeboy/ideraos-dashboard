@@ -33,6 +33,7 @@
         <div class="order-history--mod">
           <OrderHistory />
         </div>
+
       </div>
     </div>
   </div>
@@ -64,6 +65,7 @@ body {
   background: #FAFAFA;
 }
 
+
 .home {
   display: flex;
 }
@@ -89,6 +91,7 @@ body {
 
 .order {
   display: flex;
+  margin-top: 5px;
 }
 
 .order h3 {

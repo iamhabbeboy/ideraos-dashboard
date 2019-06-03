@@ -1,7 +1,8 @@
 <template>
   <div class="sidebar">
-      <!-- <img src="./src/Logo.svg" /> -->
-      Nav
+    <div class="logo-section">
+      <img src="@/assets/Logo.svg" alt="Logo"/>
+    </div>
   </div>
 </template>
 
@@ -13,5 +14,9 @@
   width: 18%;
   left: 0;
   top: 0;
+}
+.logo-section {
+  background: #FFF;
+  padding-bottom: 6px;
 }
 </style>
