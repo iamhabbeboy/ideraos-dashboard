@@ -2,11 +2,15 @@
   <section class="navbar">
     <div class="nav-block">
       <div>
+        <div></div>
         <div class="search">
           <button>
             <i class="fa fa-search"></i>
           </button>
           <input type="text" placeholder="Search">
+        </div>
+        <div class="logo-section">
+          <img src="@/assets/Logo.svg" alt="Logo"/>
         </div>
       </div>
       <div class="user-profile">
@@ -41,8 +45,13 @@
   width: 95%;
 }
 
-.search {
+.logo-section {
+  display: none;
+}
 
+.logo-section img {
+  max-width: 100%;
+  width: 80px;
 }
 
 .search button {
@@ -99,5 +108,26 @@
 
 .user-profile > div:nth-child(3) > a > i {
   padding-left: 10px;
+}
+
+@media (max-width: 400px) {
+    .user-profile > div:nth-child(2) {
+      display: none;
+    }
+    .user-profile > div:nth-child(3) {
+      padding-left: 0px;
+      padding-right: 10px;
+    }
+    .user-profile > div:nth-child(1) {
+      padding-right: 0px;
+    }
+
+    .logo-section {
+      display: block;
+    }
+
+    .search {
+      display: none;
+    }
 }
 </style>

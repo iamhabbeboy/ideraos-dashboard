@@ -17,6 +17,12 @@
 }
 .logo-section {
   background: #FFF;
-  padding-bottom: 6px;
+  padding-bottom: 3px;
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+      display: none;
+    }
 }
 </style>

@@ -108,4 +108,19 @@ body {
 .order-history--mod {
   margin-top: 20px;
 }
+
+
+@media (max-width: 400px) {
+
+  .home {
+    display: block;
+  }
+    .content {
+      width: 100% !important;
+    }
+    .container {
+      width: 100% !important;
+    }
+}
+
 </style>
