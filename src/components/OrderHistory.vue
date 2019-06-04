@@ -117,4 +117,11 @@
 .green {
   background-color: #3CC480;
 }
+
+@media (max-width: 480px) {
+  .order-history {
+    overflow: scroll;
+    margin-right: 15px;
+  }
+}
 </style>
