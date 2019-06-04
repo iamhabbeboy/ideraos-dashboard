@@ -130,6 +130,11 @@ body {
     .card__mod {
       display: block;
     }
+
+    .order div {
+      margin-right: 25px;
+      margin-top: 10px;
+    }
 }
 
 </style>
