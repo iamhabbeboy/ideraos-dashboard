@@ -132,7 +132,7 @@ body {
     }
 
     .order div {
-      margin-right: 15px;
+      margin-right: 18px;
       margin-top: 10px;
     }
 }

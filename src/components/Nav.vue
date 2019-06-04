@@ -2,15 +2,21 @@
   <section class="navbar">
     <div class="nav-block">
       <div>
-        <div></div>
+        <div class="responsive">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="logo-section">
+            <img src="@/assets/Logo.svg" alt="Logo"/>
+          </div>
+        </div>
         <div class="search">
           <button>
             <i class="fa fa-search"></i>
           </button>
           <input type="text" placeholder="Search">
-        </div>
-        <div class="logo-section">
-          <img src="@/assets/Logo.svg" alt="Logo"/>
         </div>
       </div>
       <div class="user-profile">
@@ -111,15 +117,34 @@
 }
 
 @media (max-width: 480px) {
+
+    .responsive {
+      display: flex;
+    }
+
+    .hamburger {
+      background: #FFF;
+      margin-right: 10px;
+    }
+
+    .hamburger span {
+      padding: 1px 10px;
+      background: #BCBCCB;
+      margin: 5px auto;
+      display: block;
+    }
+
     .user-profile > div:nth-child(2) {
       display: none;
     }
+
     .user-profile > div:nth-child(3) {
       padding-left: 0px;
       padding-right: 10px;
     }
+
     .user-profile > div:nth-child(1) {
-      padding-right: 0px;
+      padding-right: 10px;
     }
 
     .logo-section {
