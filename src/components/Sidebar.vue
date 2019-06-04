@@ -43,6 +43,7 @@
   display: block;
 }
 
+
 @media (max-width: 480px) {
     .sidebar {
       display: none;

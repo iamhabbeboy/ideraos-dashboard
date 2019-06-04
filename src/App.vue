@@ -126,6 +126,10 @@ body {
     .container {
       width: 100% !important;
     }
+
+    .card__mod {
+      display: block;
+    }
 }
 
 </style>

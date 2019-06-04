@@ -93,4 +93,13 @@ export default {
   .red {
       color: #FA696D;
   }
+
+@media (max-width: 480px) {
+    .card {
+      width: 85%;
+      margin-left: 0px;
+      margin-top: 15px;
+      margin-right: auto;
+    }
+}
 </style>
